@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    margin: 0;
+    background:#c5c6c8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#Calculator{
+    max-width: 360px;
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19)
+}
+
+#display{
+    width: 100%;
+    height:56px ;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    color:#b2e2f2;
+    background-color: rgba(13, 27, 42, 0.3);
+    border: none;
+    box-sizing: border-box;
+}
+
+.Operator{
+    color: aqua;
+}
+
+#AC{
+    color: aqua;
+}
+
+#Equal{
+width: calc(50% - 10px);
+}
+
+.Numero, .Operator, #Equal, #AC{
+    width: calc(25% - 10px);
+    height: 50px;
+    font-size: 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    background-color: rgb(13, 27, 42);
+    color: aliceblue;
+    box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.Numero{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
